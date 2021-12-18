@@ -1,5 +1,6 @@
 db:
     image: mysql:latest
+    container_name: mysql_c
     volumes:
       - db_data:/var/lib/mysql
     restart: always
